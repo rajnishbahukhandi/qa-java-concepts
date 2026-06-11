@@ -1,4 +1,4 @@
-package List;
+package Collections.List;
 
 import java.util.ArrayList;
 // ArrayList: is a class in java use to store multiple values in dynamic array.
