@@ -19,7 +19,7 @@ public class ArraylistConcept3 {
         salary.add(50.5f);
         salary.add(60.7f);
         salary.add(100.90f);
-        for(Float salarys : salary){
+        for(float salarys : salary){
             System.out.println(salarys);
         }
 
@@ -27,7 +27,7 @@ public class ArraylistConcept3 {
         price.add(100.5);
         price.add(505.90);
         price.add(1098.88);
-        for (Double prices : price){
+        for (double prices : price){
             System.out.println(prices);
         }
     }
