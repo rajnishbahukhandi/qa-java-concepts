@@ -9,7 +9,7 @@ public class APIKeyValue {
         response.put("Created", "201");
         response.put("No Content","204");
         response.put("Redirect","303");
-        response.put("Bad Request","404");
+        response.put("Bad Request","400");
         response.put("Unauthorized","401");
         response.put("Forbidden","403");
         response.put("Not Found","404");
