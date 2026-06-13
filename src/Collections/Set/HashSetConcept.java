@@ -1,4 +1,4 @@
-package Set;
+package Collections.Set;
 
 import java.util.HashSet;
 //HashSet is a Java collection class that stores unique elements and automatically prevents duplicate values.

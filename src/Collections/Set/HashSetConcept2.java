@@ -1,4 +1,4 @@
-package Set;
+package Collections.Set;
 
 import java.util.HashSet;
 //Case 4 — Cast manually✅ part2

@@ -1,4 +1,4 @@
-package Set;
+package Collections.Set;
 import java.util.HashSet;
 //API Duplicate Validation
 //Case 1 — HashSet<Object> → use Object in loop ✅ Object parent class, Object store multiple object types.
