@@ -12,6 +12,7 @@ public class ValidateStatusCodeRange {
         api.put("payment",500);
 
         for(String endpoint : api.keySet()){
+            // because values are Object. returns keys, not values.
             int code = (Integer)api.get(endpoint);
             if(code>=200 && code<=300){
                 System.out.println(code + ": " + "pass");

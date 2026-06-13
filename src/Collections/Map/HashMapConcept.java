@@ -1,8 +1,9 @@
 package Collections.Map;
 
 import java.util.HashMap;
+// HashMap is a class in java that stores data in the form of keys-value pairs, where each key is unique
+// and used to access its corresponding value efficiently.
 // Map belongs to collections framework but is not a child of collection interface.
-
 public class HashMapConcept {
     public static void main(String[] args){
         HashMap<String,String> user = new HashMap<>();
