@@ -1,8 +1,8 @@
-package Collections.List;
+package Collections.List.ArrayList;
 
 import java.util.ArrayList;
 // validation logic
-public class CountSuccessfulAPIs {
+public class ValidateAPIStatusCodes {
     public static void main(String [] args){
         ArrayList<Integer> statuscode = new ArrayList<>();
         statuscode.add(200);
@@ -12,12 +12,11 @@ public class CountSuccessfulAPIs {
         statuscode.add(403);
         statuscode.add(500);
 
-        int successcount = 0;
-        for (int code : statuscode){
-            if(code<400){
-                successcount++;
+        for (Integer code : statuscode){
+            if(code >= 400){
+                System.out.println("API FAIL : " + code);
             }
+
         }
-        System.out.println("API SUCCESSFUL : "+ successcount);
     }
 }

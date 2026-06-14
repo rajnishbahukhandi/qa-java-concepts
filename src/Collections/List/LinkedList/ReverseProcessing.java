@@ -1,4 +1,4 @@
-package Collections.LinkedList;
+package Collections.List.LinkedList;
 
 import java.util.LinkedList;
 //Data processing on output in reverse order.

@@ -1,11 +1,11 @@
-package Collections.List;
+package Collections.List.ArrayList;
 
 import java.util.ArrayList;
-// ArrayList: is a class in java use to store multiple values in dynamic array.
+// arraylist: is a class in java use to store multiple values in dynamic array.
 // Size can grow automatically and shrink automatically.
 // Expand and can add more.
-// String ArrayList
-public class ArraylistConcept {
+// String arraylist
+public class ArrayListConcept {
     public static void main (String [] args){
         ArrayList<String> names = new ArrayList<>();
         names.add("Raj");
@@ -14,7 +14,7 @@ public class ArraylistConcept {
         names.add("Hari");
         names.add("Dev");
 
-        // Loop Through ArrayList
+        // Loop Through arraylisting
         for(String n : names){
             System.out.println(n);
         }

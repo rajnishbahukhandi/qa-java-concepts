@@ -1,4 +1,4 @@
-package Collections.List;
+package Collections.List.ArrayList;
 
 import java.util.ArrayList;
 
@@ -10,7 +10,7 @@ public class ArrayListConcept4 {
         names.add("Amit");
         names.add("Sandeep");
         // Add and print
-        System.out.println("ArrayList: "+ names);
+        System.out.println("listing: "+ names);
         // Get value by Index
         System.out.println("Index: "+ names.get(2));
         System.out.println("First: "+ names.getFirst());

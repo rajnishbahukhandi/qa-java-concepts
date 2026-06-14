@@ -8,7 +8,7 @@ public class CompareArrayListvsHashSet {
         ArrayList<String>names = new ArrayList<>();
         names.add("raj");
         names.add("raj");
-        System.out.println("ArrayList: "+names);
+        System.out.println("listing: "+names);
 
         HashSet<String>employee = new HashSet<>();
         employee.add("raj");

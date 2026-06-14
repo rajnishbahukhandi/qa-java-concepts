@@ -1,7 +1,7 @@
-package Collections.List;
+package Collections.List.ArrayList;
 
 import java.util.ArrayList;
-// Integer ArrayList
+// Integer arraylist
 public class ArrayListConcept2 {
     public static void main(String [] args){
         ArrayList<Integer> id = new ArrayList<>();

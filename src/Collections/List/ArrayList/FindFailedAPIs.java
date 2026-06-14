@@ -1,7 +1,7 @@
-package Collections.List;
+package Collections.List.ArrayList;
 
 import java.util.ArrayList;
-//Multiple ArrayLists
+//Multiple arraylists
 //Index matching
 public class FindFailedAPIs {
     public static void main(String [] args){

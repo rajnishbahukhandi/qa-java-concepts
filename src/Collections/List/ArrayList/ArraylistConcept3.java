@@ -1,7 +1,7 @@
-package Collections.List;
+package Collections.List.ArrayList;
 
 import java.util.ArrayList;
-// ArrayList
+// arraylist
 public class ArraylistConcept3 {
     public static void main(String [] args){
         ArrayList<Boolean> flag = new ArrayList<>();

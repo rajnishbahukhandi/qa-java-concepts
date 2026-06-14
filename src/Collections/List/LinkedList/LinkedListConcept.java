@@ -1,4 +1,4 @@
-package Collections.LinkedList;
+package Collections.List.LinkedList;
 
 import java.util.LinkedList;
 //LinkedList is a java collection class that stores elements in sequence where each element is connected
