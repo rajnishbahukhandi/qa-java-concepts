@@ -1,4 +1,4 @@
-package Collections.Map;
+package Collections.Map.HashMap;
 
 import java.util.HashMap;
 // HashMap is a class in java that stores data in the form of keys-value pairs, where each key is unique

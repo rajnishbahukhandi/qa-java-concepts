@@ -1,5 +1,4 @@
-package Collections.Map;
-import java.text.MessageFormat;
+package Collections.Map.HashMap;
 import java.util.HashMap;
 //Nested JSON
 public class NestedAPIResponse {

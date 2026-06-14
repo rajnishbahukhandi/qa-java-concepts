@@ -1,4 +1,4 @@
-package Collections.Set;
+package Collections.Set.HashSet;
 
 import java.util.HashSet;
 //Find failed APIs also remove duplicates.

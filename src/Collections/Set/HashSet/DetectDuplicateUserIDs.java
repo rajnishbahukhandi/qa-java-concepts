@@ -1,4 +1,4 @@
-package Collections.Set;
+package Collections.Set.HashSet;
 
 import java.util.HashSet;
 //This pattern (if(!set.add(value))) is a common Java interview question for duplicate detection.
