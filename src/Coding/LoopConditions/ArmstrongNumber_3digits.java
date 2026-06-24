@@ -1,4 +1,4 @@
-package Coding;
+package Coding.LoopConditions;
 
 public class ArmstrongNumber_3digits {
     public static void main(String [] args){
@@ -16,3 +16,6 @@ public class ArmstrongNumber_3digits {
         }else{System.out.println(Armstrong + " is not an Armstrong Number");}
     }
 }
+
+// A number is Armstrong if: Sum of each digit raised to the power of number of digits = original number
+// 153 => 1³ + 5³ + 3³ => 1 + 125 + 27 = 153

@@ -1,4 +1,4 @@
-package Coding;
+package Coding.LoopConditions;
 
 public class SumofDigits {
     public static void main(String [] args){
