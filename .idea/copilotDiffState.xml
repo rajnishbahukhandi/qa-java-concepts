@@ -3,15 +3,6 @@
   <component name="CopilotDiffPersistence">
     <option name="pendingDiffs">
       <map>
-        <entry key="$PROJECT_DIR$/src/Coding/StringQuestions/ReverseIndividualWords.java">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/src/Coding/StringQuestions/ReverseIndividualWords.java" />
-              <option name="originalContent" value="package Coding.StringQuestions;&#10;&#10;public class ReverseIndividualWords {&#10;    public static void main(String [] args) {&#10;        String sentence = &quot;Java Developer&quot;;&#10;        String [] word = sentence.split(&quot; &quot;);&#10;        String reverseSentence= &quot;&quot;;&#10;        for(String words : word){&#10;            StringBuilder sb = new StringBuilder(words);&#10;            sb.reverse();&#10;            reverseSentence += sb.toString() + &quot; &quot;;&#10;        }&#10;        System.out.println(reverseSentence.trim());&#10;    }&#10;}&#10;" />
-              <option name="updatedContent" value="package Coding.StringQuestions;&#10;&#10;public class ReverseIndividualWords {&#10;    public static void main(String [] args) {&#10;        String sentence = &quot;Java Developer&quot;;&#10;        String [] word = sentence.split(&quot; &quot;);&#10;        String reverseSentence= &quot;&quot;;&#10;        for(int i = 0; i &lt; word.length; i++){&#10;            StringBuilder sb = new StringBuilder(word[i]);&#10;            sb.reverse();&#10;            if(i &gt; 0){&#10;                reverseSentence += &quot; &quot;;&#10;            }&#10;            reverseSentence += sb.toString();&#10;        }&#10;        System.out.println(reverseSentence);&#10;    }&#10;}&#10;" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/HotelBookingAPI/ValidateBookingResponse.java">
           <value>
             <PendingDiffInfo>

@@ -5,14 +5,11 @@ public class ReverseIndividualWords {
         String sentence = "Java Developer";
         String [] word = sentence.split(" ");
         String reverseSentence= "";
-        for(int i = 0; i < word.length; i++){
-            StringBuilder sb = new StringBuilder(word[i]);
+        for(String words : word){
+            StringBuilder sb = new StringBuilder(words);
             sb.reverse();
-            if(i > 0){
-                reverseSentence += " ";
-            }
-            reverseSentence += sb.toString();
+            reverseSentence += sb.toString() + " ";
         }
-        System.out.println(reverseSentence);
+        System.out.println(reverseSentence.trim());
     }
 }
